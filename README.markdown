@@ -24,7 +24,7 @@ npm start
 Import as a module:
 
 ```js
-import fizzbuzz from "@n3dst4/fizzbuzz/fizzbuzz";
+import fizzbuzz from "@n3dst4/fizzbuzz";
 console.log(fizzbuzz(1, 101).join("\n"));
 ```
 

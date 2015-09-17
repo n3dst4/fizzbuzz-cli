@@ -2,10 +2,10 @@
   "name": "@n3dst4/fizzbuzz",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "fizzbuzz.js",
   "repository": "https://github.com/n3dst4/fizzbuzz.git",
   "bin": {
-    "fizzbuzz": "index.js"
+    "fizzbuzz": "bin.js"
   },
   "scripts": {
     "test": "mocha",
