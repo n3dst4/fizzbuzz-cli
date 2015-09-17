@@ -1,5 +1,7 @@
 # Fizzbuzz
 
+![Travis status](https://travis-ci.org/n3dst4/fizzbuzz.svg)
+
 FInally! An implementation of the problem known for centuries to mathematicians as "FizzBuzz".
 
 ## Usage
