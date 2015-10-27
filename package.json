@@ -1,6 +1,6 @@
 {
   "name": "@n3dst4/fizzbuzz-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An implementation of the problem known for centuries to mathematicians as \"FizzBuzz\".",
   "repository": "https://github.com/n3dst4/fizzbuzz-cli.git",
   "preferGlobal": true,
