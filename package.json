@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "An implementation of the problem known for centuries to mathematicians as \"FizzBuzz\".",
   "repository": "https://github.com/n3dst4/fizzbuzz-cli.git",
+  "preferGlobal": true,  
   "bin": {
     "fizzbuzz": "./__build/fizzbuzz.js"
   },
