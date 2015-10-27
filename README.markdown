@@ -37,3 +37,12 @@ mocha
 ```
 
 See [Mocha's documentation](http://mochajs.org/) for more command line options for Mocha.
+
+
+## For the love of gosh, why?
+
+This package is an exercise in cramming as many good practices into a codebase
+as possible. Tests, documentation, modularised code, transpilation, it's all
+here. See also
+[n3dst4/fizzbuzzify](https://github.com/n3dst4/fizzbuzzify), which is a
+micropackage implementing the core fizzbuzz login.
