@@ -26,11 +26,21 @@
     "mocha": "^2.3.2"
   },
   "eslintConfig": {
+    "extends": "eslint:recommended",
     "parser": "babel-eslint",
     "env": {
       "node": true
     },
-    "extends": "eslint:recommended",
-    "rules": {}
+    "rules": {
+      "quotes": 0,
+      "comma-dangle": 0,
+      "no-unused-vars": [
+        2,
+        {
+          "vars": "all",
+          "args": "none"
+        }
+      ]
+    }
   }
 }
