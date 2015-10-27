@@ -1,34 +1,36 @@
 {
-  "name": "@n3dst4/fizzbuzz",
+  "name": "@n3dst4/fizzbuzz-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "fizzbuzz.js",
-  "repository": "https://github.com/n3dst4/fizzbuzz.git",
+  "description": "An implementation of the problem known for centuries to mathematicians as \"FizzBuzz\".",
+  "repository": "https://github.com/n3dst4/fizzbuzz-cli.git",
   "bin": {
-    "fizzbuzz": "bin.js"
+    "fizzbuzz": "__build/fizzbuzz.js"
   },
   "scripts": {
     "test": "mocha",
-    "start": "node index.js"
+    "start": "node __build/fizzbuzz.js",
+    "prepublish": "babel src --out-dir __build --optional runtime",
+    "watch": "babel --watch src --out-dir __build --optional runtime"
   },
   "author": "Neil de Carteret <npm@lumphammer.com>",
   "license": "ISC",
   "dependencies": {
-    "babel": "^5.8.23",
-    "lodash": "^3.10.1"
+    "@n3dst4/fizzbuzzify": "^1.0.3"
   },
   "devDependencies": {
+    "babel": "^5.8.23",
     "babel-eslint": "^4.1.2",
+    "babel-runtime": "^5.8.29",
     "chai": "^3.2.0",
     "eslint": "^1.4.3",
     "mocha": "^2.3.2"
   },
   "eslintConfig": {
     "parser": "babel-eslint",
-    "env": {"node": true },
+    "env": {
+      "node": true
+    },
     "extends": "eslint:recommended",
-    "rules": {
-
-    }
+    "rules": {}
   }
 }
