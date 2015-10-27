@@ -4,7 +4,7 @@
   "description": "An implementation of the problem known for centuries to mathematicians as \"FizzBuzz\".",
   "repository": "https://github.com/n3dst4/fizzbuzz-cli.git",
   "bin": {
-    "fizzbuzz": "__build/fizzbuzz.js"
+    "fizzbuzz": "./__build/fizzbuzz.js"
   },
   "scripts": {
     "test": "mocha",
