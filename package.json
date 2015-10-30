@@ -17,12 +17,12 @@
   "author": "Neil de Carteret <npm@lumphammer.com>",
   "license": "ISC",
   "dependencies": {
-    "@n3dst4/fizzbuzzify": "^1.0.3"
+    "@n3dst4/fizzbuzzify": "^1.0.3",
+    "babel-runtime": "^5.8.29"
   },
   "devDependencies": {
     "babel": "^5.8.23",
     "babel-eslint": "^4.1.2",
-    "babel-runtime": "^5.8.29",
     "chai": "^3.2.0",
     "eslint": "^1.4.3",
     "mocha": "^2.3.2"
