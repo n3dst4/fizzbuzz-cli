@@ -13,6 +13,12 @@ function *range(start, end) {
   }
 }
 
-for (let i of range(1, 101)) {
-  console.log(fizzbuzzify(i));
+export default function fizzBuzz () {
+  for (let i of range(1, 101)) {
+    console.log(fizzbuzzify(i));
+  }
+}
+
+if ( ! module.parent) {
+  fizzBuzz();
 }
