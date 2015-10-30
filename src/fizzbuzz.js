@@ -1,5 +1,5 @@
+#!/usr/bin/env node
 /*eslint no-console: 0*/
-
 import fizzbuzzify from "@n3dst4/fizzbuzzify";
 
 function *range(start, end) {
