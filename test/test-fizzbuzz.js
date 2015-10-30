@@ -22,7 +22,7 @@ const resultPromise = new Promise(function (resolve, reject) {
 describe("fizzbuzz", function () {
   it("should do the first fifteen correctly", function () {
     return resultPromise.then(result => {
-      expect(result.slice(1, 16)).to.deep.equal([
+      expect(result.slice(0, 15)).to.deep.equal([
         "1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11",
         "Fizz", "13", "14", "FizzBuzz"]);
     });
@@ -30,7 +30,7 @@ describe("fizzbuzz", function () {
 
   it("should do the last fifteen correctly", function () {
     return resultPromise.then(result => {
-      expect(result.slice(86, 101)).to.deep.equal([
+      expect(result.slice(85, 100)).to.deep.equal([
         "86", "Fizz", "88", "89", "FizzBuzz", "91", "92", "Fizz", "94", "Buzz",
         "Fizz", "97", "98", "Fizz", "Buzz"]);
     });
