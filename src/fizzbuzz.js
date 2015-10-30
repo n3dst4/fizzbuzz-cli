@@ -13,6 +13,6 @@ function *range(start, end) {
   }
 }
 
-for (let i of range(101)) {
+for (let i of range(1, 101)) {
   console.log(fizzbuzzify(i));
 }
