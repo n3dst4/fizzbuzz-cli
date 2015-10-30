@@ -3,7 +3,7 @@
 
 ![Travis status](https://travis-ci.org/n3dst4/fizzbuzz-cli.svg)
 
-Finally! An implementation of the problem known for centuries to mathematicians as "FizzBuzz".
+Finally, a modular, tested, functional solution to the problem known for centuries to mathematicians as &quot;FizzBuzz&quot;
 
 ## Usage
 
