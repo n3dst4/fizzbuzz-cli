@@ -21,9 +21,6 @@ You can then run it with:
 fizzbuzz
 ```
 
-If you have cloned this repo locally you can run it with:
-
-
 ## Hacking
 
 If you want to play with the the code in this repo, fork it (using the **Fork** button at the top of the GitHub page), and clone it locally:
