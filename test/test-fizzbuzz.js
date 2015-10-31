@@ -6,7 +6,7 @@ const expect = chai.expect;
 import rewire from "rewire";
 
 describe("fizzbuzz", function () {
-  it("should do the first fifteen correctly", function () {
+  it("should do fizzbuzz", function () {
     const fizzBuzz = rewire("../src/fizzbuzz.js");
     const logMessages = [];
     fizzBuzz.__set__("console", {
