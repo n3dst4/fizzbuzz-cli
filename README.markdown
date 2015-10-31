@@ -7,7 +7,7 @@ Finally, a modular, tested, functional solution to the problem known for centuri
 
 ## Usage
 
-First, make sure you have [NodeJS](https://nodejs.org/en/) installed.  Installing NodeJS will also install **npm**, the NodeJs Package Manager, on your system.
+First, make sure you have [NodeJS](https://nodejs.org/en/) installed.  Installing NodeJS will also install **npm**, the NodeJS Package Manager, on your system.
 
 This program is installed with `npm install` command:
 
