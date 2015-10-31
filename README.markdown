@@ -3,7 +3,7 @@
 
 ![Travis status](https://travis-ci.org/n3dst4/fizzbuzz-cli.svg)
 
-Finally, a modular, tested, functional solution to the problem known for centuries to mathematicians as &quot;FizzBuzz&quot;
+Finally, a modular, tested, functional solution to the problem known for centuries to mathematicians as "FizzBuzz".
 
 ## Usage
 
@@ -54,7 +54,7 @@ can't even program at all. The problem is usually stated as:
 > “Buzz”. For numbers which are multiples of both three and five print
 > “FizzBuzz”.
 
-Its origins are described in [a 2007 blog posy by Imran
+Its origins are described in [a 2007 blog post by Imran
 Ghory](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/).
 There's nothing special about FizzBuzz. It's just a trivial programming
 exercise.
@@ -113,13 +113,13 @@ Obviously we want to be using the latest language features because they improve 
 
 So we're using [Babel](https://babeljs.io/) to transpile ES6 syntax into
 run-anywhere ES5 syntax. There's a "prepublish" hook script that runs babel on
-the contents of the `src/` folder and puts in the `__build` folder, which is
-what is then published to NPM.
+the contents of the `src/` folder and puts the results in the `__build` folder, 
+which is what is then published to NPM.
 
 ### Small, sharp tools
 
-Good software is small and does one thing well. Large systems, then should be
-created by composing small pieces. That helps maintainability because:
+Good software is small and does one thing well. It follows that large systems
+should be created by composing small pieces. The practical benefits include:
 
 * New team members can get on board and be productive in a subset of the code
     very quickly
@@ -131,11 +131,11 @@ created by composing small pieces. That helps maintainability because:
     can have continuous improvement in your code base and never need a five-year
     rewrite-everything grand mission.
 
-To demonstrate this, the logic of returning "Fizz", "Buzz", etc. is delegated t
+To demonstrate this, the logic of returning "Fizz", "Buzz", etc. is delegated to
 a separate package,
 [`@n3dst4/fizzbuzzify`](https://www.npmjs.com/package/@n3dst4/fizzbuzzify)
 
-## Functional programming and reactive functional programming: RxJS
+### Functional programming and reactive functional programming: RxJS
 
 Functional Programming is many things, but the heart of it is coding in an
 expression-oriented style. That means you write expressions to say what you
