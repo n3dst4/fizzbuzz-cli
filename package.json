@@ -18,7 +18,8 @@
   "license": "ISC",
   "dependencies": {
     "@n3dst4/fizzbuzzify": "^1.0.3",
-    "babel-runtime": "^5.8.29"
+    "babel-runtime": "^5.8.29",
+    "rx": "^4.0.6"
   },
   "devDependencies": {
     "babel": "^5.8.23",

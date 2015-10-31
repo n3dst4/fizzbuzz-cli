@@ -109,17 +109,12 @@ Fizz
 
 ### Next-gen language features: ES6 and Babel
 
-Obviously we want to be using the latest language features, like generators and
-ES6 modules, because they improve code legibility.
+Obviously we want to be using the latest language features because they improve code legibility.
 
 So we're using [Babel](https://babeljs.io/) to transpile ES6 syntax into
 run-anywhere ES5 syntax. There's a "prepublish" hook script that runs babel on
 the contents of the `src/` folder and puts in the `__build` folder, which is
 what is then published to NPM.
-
-## Functional programming and reactive functional programming: RxJS
-
-TODO
 
 ### Small, sharp tools
 
@@ -139,6 +134,29 @@ created by composing small pieces. That helps maintainability because:
 To demonstrate this, the logic of returning "Fizz", "Buzz", etc. is delegated t
 a separate package,
 [`@n3dst4/fizzbuzzify`](https://www.npmjs.com/package/@n3dst4/fizzbuzzify)
+
+## Functional programming and reactive functional programming: RxJS
+
+Functional Programming is many things, but the heart of it is coding in an
+expression-oriented style. That means you write expressions to say what you
+mean, not a sequence of steps which you hope will have the right result.
+Functional programming is a must-have tool for modern development, because it
+can help you keep your code manageable.
+
+Reactive functional programming is a technique for describing running systems in
+terms of static expressions. Events are modelled as a stream, which can be
+treated like you'd treat an iterable in traditional FP, with mapping, filtering
+etc.
+
+RxJS is a powerful library for RFP in JavaScript, and we're using in this crazy,
+crazy FizzBuzz implementation to generate an "observable stream" of the integers
+1 to 100, mapping each of those onto its corrensponding FizzBuzz result using `fizzbuzzify`, and then sending the results to `console.log`.
+
+```js
+Rx.Observable.range(1, 100).
+  map(fizzbuzzify).
+  subscribe(console.log);
+```
 
 ### Documentation
 
