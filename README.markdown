@@ -205,4 +205,4 @@ you've *still* made progress towards a solution.
 So this repository is open source, open for bug reports if you like, and
 especially open for PRs! Obviously it's a big joke, but it has a real goal of
 being a demo of Things I Think Are Important In Software Projects, and I'm open
-to suggestions of how to reach the goal even better.
+to suggestions on how to reach that goal even better.
