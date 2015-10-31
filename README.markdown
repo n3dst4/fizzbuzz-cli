@@ -7,22 +7,37 @@ Finally, a modular, tested, functional solution to the problem known for centuri
 
 ## Usage
 
-Global install, from the command line:
+First, make sure you have [NodeJS](https://nodejs.org/en/) installed.  Installing NodeJS will also install **npm**, the NodeJs Package Manager, on your system.
 
-```bash
+This program is installed with `npm install` command:
+
+```sh
 npm install @n3dst4/fizzbuzz-cli -g
+```
+
+You can then run it with:
+
+```sh
 fizzbuzz
 ```
 
-Local development:
+If you have cloned this repo locally you can run it with:
 
-```bash
-git clone https://github.com/n3dst4/fizzbuzz-cli.git
-cd fizzbuzz-cli
-npm start
-```
 
 ## Hacking
+
+If you want to play with the the code in this repo, fork it (using the **Fork** button at the top of the GitHub page), and clone it locally:
+
+```bash
+git clone https://github.com/<your username>/fizzbuzz-cli.git
+cd fizzbuzz-cli
+```
+
+Run FizzBuzz with:
+
+```bash
+npm start
+```
 
 Run tests with
 
@@ -30,14 +45,14 @@ Run tests with
 npm test
 ```
 
-or cut to the chase and
+Or cut to the chase and call Mocha directly if you have it installed globally:
 
 ```
 mocha
 ```
 
 See [Mocha's documentation](http://mochajs.org/) for more command line options
-for Mocha.
+for Mocha. Especially useful is `mocha --watch`, which will keep mocha running and re-run your tests whenever the code changes. Handy for getting an early warning when you break something.
 
 
 ## But whyyyyy?
