@@ -42,8 +42,8 @@ for Mocha.
 
 ## But whyyyyy?
 
-This package is an exercise in cramming as many cool things into a codebase as
-possible, *ad absurdum*.
+This project is an exercise in cramming as many cool things into a codebase as
+possible.
 
 If you're not familiar with "FizzBuzz": it's a tiny programming exercise
 intended to be given to applicants for development roles to weed out people who
