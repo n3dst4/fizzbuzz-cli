@@ -9,6 +9,7 @@ export default function fizzBuzz () {
     subscribe(console.log);
 }
 
+// only run the above function if we're the main script
 if ( ! module.parent) {
   fizzBuzz();
 }
