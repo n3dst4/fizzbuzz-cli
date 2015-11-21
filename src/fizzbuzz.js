@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /*eslint no-console: 0*/
-import fizzbuzzify from "@n3dst4/fizzbuzzify";
+import fizzbuzzify from "fizzbuzzify";
 import Rx from "rx";
 
 export default function fizzBuzz () {

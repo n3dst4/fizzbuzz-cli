@@ -1,5 +1,5 @@
 {
-  "name": "@n3dst4/fizzbuzz-cli",
+  "name": "fizzbuzz-cli",
   "version": "1.0.9",
   "description": "An implementation of the problem known for centuries to mathematicians as \"FizzBuzz\".",
   "repository": "https://github.com/n3dst4/fizzbuzz-cli.git",
@@ -17,7 +17,7 @@
   "author": "Neil de Carteret <npm@lumphammer.com>",
   "license": "ISC",
   "dependencies": {
-    "@n3dst4/fizzbuzzify": "^1.0.3",
+    "fizzbuzzify": "^2.0.0",
     "babel-runtime": "^5.8.29",
     "rx": "^4.0.6"
   },

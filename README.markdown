@@ -1,5 +1,4 @@
-@n3dst4/fizzbuzz-cli
-====================
+# fizzbuzz-cli
 
 ![Travis status](https://travis-ci.org/n3dst4/fizzbuzz-cli.svg)
 
@@ -12,7 +11,7 @@ First, make sure you have [NodeJS](https://nodejs.org/en/) installed.  Installin
 This program is installed with `npm install` command:
 
 ```sh
-npm install @n3dst4/fizzbuzz-cli -g
+npm install fizzbuzz-cli -g
 ```
 
 You can then run it with:
@@ -106,10 +105,10 @@ that means you should be able to `npm install -g <package>` and hey presto, you
 have `<package>` on your `PATH`.
 
 So this implementation of fizzbuzz is published on [the public NPM
-registry](https://www.npmjs.com/) as **@n3dst4/fizzbuzz-cli**. Try it!
+registry](https://www.npmjs.com/) as **fizzbuzz-cli**. Try it!
 
 ```bash
-npm install -g @n3dst4/fizzbuzz-cli
+npm install -g fizzbuzz-cli
 fizzbuzz
 
 # output:
@@ -125,7 +124,7 @@ Obviously we want to be using the latest language features because they improve 
 
 So we're using [Babel](https://babeljs.io/) to transpile ES6 syntax into
 run-anywhere ES5 syntax. There's a "prepublish" hook script that runs babel on
-the contents of the `src/` folder and puts the results in the `__build` folder, 
+the contents of the `src/` folder and puts the results in the `__build` folder,
 which is what is then published to NPM.
 
 ### Small, sharp tools
@@ -145,7 +144,7 @@ should be created by composing small pieces. The practical benefits include:
 
 To demonstrate this, the logic of returning "Fizz", "Buzz", etc. is delegated to
 a separate package,
-[`@n3dst4/fizzbuzzify`](https://www.npmjs.com/package/@n3dst4/fizzbuzzify)
+[`fizzbuzzify`](https://www.npmjs.com/package/fizzbuzzify)
 
 ### Functional programming and reactive functional programming: RxJS
 
