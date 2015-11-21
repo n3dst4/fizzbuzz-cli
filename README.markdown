@@ -4,6 +4,10 @@
 
 Finally, a modular, tested, functional solution to the problem known for centuries to mathematicians as "FizzBuzz".
 
+## Demo
+
+There's a [live demo on TonicDev](https://tonicdev.com/n3dst4/fizzbuzz) where you can witness the raw rower of fizzbuzz-cli and also experiment with fizzbuzzify, the micropackage that powers the results of fizzbuzz-cli.
+
 ## Usage
 
 First, make sure you have [NodeJS](https://nodejs.org/en/) installed.  Installing NodeJS will also install **npm**, the NodeJS Package Manager, on your system.
@@ -174,6 +178,10 @@ Rx.Observable.range(1, 100).
 You're reading it! Useful code has as few barriers to entry as possible (see
 Installability above). So to do well, a package should have a README that
 explains what it does, and has at least a minimal usage example.
+
+### Demo
+
+In line with the philosophy of removing barriers to entry, there's a demo page (provided by [TonicDev](https://tonicdev.com/n3dst4/fizzbuzz)) so anyone can go and have a play.
 
 
 ### Continuous Integration: Travis CI
