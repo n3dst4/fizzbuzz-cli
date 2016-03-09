@@ -6,7 +6,7 @@ Finally, a modular, tested, functional solution to the problem known for centuri
 
 ## Demo
 
-There's a [live demo on TonicDev](https://tonicdev.com/n3dst4/fizzbuzz) where you can witness the raw rower of fizzbuzz-cli and also experiment with fizzbuzzify, the micropackage that powers the results of fizzbuzz-cli.
+There's a [live demo on TonicDev](https://tonicdev.com/n3dst4/fizzbuzz) where you can witness the raw rower of fizzbuzz-cli and also experiment with [fizzbuzzify](https://github.com/n3dst4/fizzbuzzify), the micropackage that powers the results of fizzbuzz-cli.
 
 ## Usage
 
