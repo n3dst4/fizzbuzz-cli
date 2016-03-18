@@ -213,3 +213,14 @@ So this repository is open source, open for bug reports if you like, and
 especially open for PRs! Obviously it's a big joke, but it has a real goal of
 being a demo of Things I Think Are Important In Software Projects, and I'm open
 to suggestions on how to reach that goal even better.
+
+## What's missing?
+
+The main thing that this project does **not** demonstrate, which would be pretty 
+much impossible to add at this stage, is *simplicity*. Generally, I'm a big believer 
+in YAGNI, "You Ain't Gonna Need It": the principle that adding engineering complexity
+to a project before there's a clear need for it is usually a mistake. If you're
+unsure if the value of simplicty, watch the talk [Simplicity Matters][simplicty] by 
+Rich Hickey, creator of the Clojure language.
+
+[simplicity]: https://www.youtube.com/watch?v=rI8tNMsozo0
