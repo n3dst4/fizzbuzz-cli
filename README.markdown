@@ -220,7 +220,7 @@ The main thing that this project does **not** demonstrate, which would be pretty
 much impossible to add at this stage, is *simplicity*. Generally, I'm a big believer 
 in YAGNI, "You Ain't Gonna Need It": the principle that adding engineering complexity
 to a project before there's a clear need for it is usually a mistake. If you're
-unsure if the value of simplicty, watch the talk [Simplicity Matters][simplicty] by 
+unsure if the value of simplicty, watch the talk [Simplicity Matters][simplicity] by 
 Rich Hickey, creator of the Clojure language.
 
 [simplicity]: https://www.youtube.com/watch?v=rI8tNMsozo0
